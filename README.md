@@ -3,17 +3,6 @@
 
 Este projeto consiste em uma API desenvolvida com Flask que interage com o Firestore, um banco de dados NoSQL em tempo real, parte do Firebase. A API permite realizar operações CRUD (Create, Read, Update, Delete) para coleções de mangás e livros.
 
-## Índice
-
-- [Descrição Técnica](#descrição-técnica)
-- [Configuração](#configuração)
-- [Instalação](#instalação)
-- [Execução](#execução)
-- [Endpoints da API](#endpoints-da-api)
-- [Ferramentas Utilizadas](#ferramentas-utilizadas)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
-
 ## Descrição Técnica
 
 **Firestore** é um banco de dados NoSQL flexível e escalável que armazena dados em documentos organizados em coleções. Ele suporta atualizações em tempo real e oferece consultas ricas e indexação automática. É ideal para aplicações que requerem sincronização em tempo real e escalabilidade.
@@ -48,9 +37,3 @@ Este projeto consiste em uma API desenvolvida com Flask que interage com o Fires
    - Vá para "Configurações do Projeto" -> "Contas de Serviço".
    - Clique em "Gerar nova chave privada" e baixe o arquivo JSON.
 
-### Configuração do Ambiente de Desenvolvimento
-
-1. **Crie um Ambiente Virtual**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # No Windows: venv\Scripts\activate
